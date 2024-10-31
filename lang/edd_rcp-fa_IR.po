@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content Pro - EDD Add On v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-15 18:48:57+0000\n"
+"Last-Translator: hannanstd <rafy_inter@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: IRAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: edd_hooks.php:98
+#: edd_hooks.php:281
+#: rcp_hooks.php:71
+#: rcp_hooks.php:96
+#@ rcp
+msgid "Paid Only?"
+msgstr ""
+
+#: edd_hooks.php:424
+#@ edd
+msgid "Purchase"
+msgstr ""
+
+#: edd_hooks.php:454
+#@ edd
+msgid "Free"
+msgstr ""
+
+#: edd_hooks.php:612
+#, php-format
+#@ edd
+msgid "includes %s tax"
+msgstr ""
+
+#: edd_hooks.php:614
+#, php-format
+#@ edd
+msgid "excludes %s tax"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: index.php:0
+#@ edd_rcp
+msgid "http://www.webforest.ir"
+msgstr "http://www.webforest.ir"
+
+#. translators: plugin header field 'Version'
+#: index.php:0
+#@ edd_rcp
+msgid "1.0.0"
+msgstr "1.0.0"
+
+#: rcp_hooks.php:60
+#: rcp_hooks.php:85
+#: rcp_hooks.php:174
+#: rcp_hooks.php:178
+#@ edd_rcp
+msgid "EDD Discount"
+msgstr "تخفیف EDD"
+
+#: rcp_hooks.php:66
+#: rcp_hooks.php:91
+#@ rcp
+msgid "Percentage"
+msgstr ""
+
+#: rcp_hooks.php:67
+#: rcp_hooks.php:92
+#@ rcp
+msgid "Flat"
+msgstr ""
+
+#: rcp_hooks.php:199
+#@ edd_rcp
+msgid "Paid Only"
+msgstr "فقط پرداختی ها"
+
+#: edd_hooks.php:30
+#@ rcp
+msgid "Restrict Content Pro"
+msgstr ""
+
+#: edd_hooks.php:40
+#@ edd_rcp
+msgid "Disable RCP settigns for this download"
+msgstr "غیرفعال کردن تنظیمات RCP برای این دانلود"
+
+#: edd_hooks.php:54
+#@ edd_rcp
+msgid "Don't show main price for this download (if RCP settings for this download is enabled)"
+msgstr "قیمت اصلی را نمایش نده ( در صورت فعال بود تنظیمات RCP )"
+
+#: edd_hooks.php:94
+#, php-format
+#@ edd_rcp
+msgid " - price for \"%s\" subscription level"
+msgstr "- قیمت برای سطح اشتراک \"%s\""
+
+#: edd_hooks.php:114
+#@ edd_rcp
+msgid "If subscription price fields was left blank (first priority) : "
+msgstr "اگر فیلد قیمت خالی گذاشته شده بود ( اولیت اول ) :"
+
+#: edd_hooks.php:121
+#: edd_hooks.php:145
+#@ edd_rcp
+msgid "Use the main price of this download"
+msgstr "قیمت اصلی دانلود را لحاظ کن"
+
+#: edd_hooks.php:122
+#: edd_hooks.php:146
+#@ edd_rcp
+msgid "Use the adjusted discount for subscription levels"
+msgstr "تخفیف در نظر گرفته شده برای سطح کاربری را لحاظ کن"
+
+#: edd_hooks.php:138
+#@ edd_rcp
+msgid "If the prices weren't blank and adjusted for \"Paid Only\" and the user was not active paid (second priority) : "
+msgstr "اگر فیلد قیمت خالی نبود و برای حالت \"فقط پرداختی\" ست شده بود ولی کاربر فعال پرداختی نبود (اولیت دوم) : "
+
+#. translators: plugin header field 'Name'
+#: index.php:0
+#@ edd_rcp
+msgid "Restrict Content Pro - EDD Add On"
+msgstr "افزونه یکپارچه سازی Restric content pro با افزونه EDD"
+
+#. translators: plugin header field 'PluginURI'
+#: index.php:0
+#@ edd_rcp
+msgid "https://wordpress.org/plugins/restrict-content-pro-edd-add-on/"
+msgstr "https://wordpress.org/plugins/restrict-content-pro-edd-add-on/"
+
+#. translators: plugin header field 'Description'
+#: index.php:0
+#@ edd_rcp
+msgid "Integrates Restrict Content Pro with Easy Digital Downloads"
+msgstr "این پلاگین افزونه EDD و Restrict content pro را به صورت یکپارچه و هماهنگ در می آورد - از مجموعه پلاگین های وب فارست"
+
+#. translators: plugin header field 'Author'
+#: index.php:0
+#@ edd_rcp
+msgid "Hannan Ebrahimi Setoodeh"
+msgstr "حنّان ابراهیمی ستوده"
+
+#: index.php:17
+#@ edd_rcp
+msgid " Restrict Content Pro - EDD Add On requires Easy Digital Downloads and Restrict Content Pro. Please install or activate them to continue."
+msgstr "افزونه یکپارچه سازی EDD و RCP نیاز به فعال بودن افزونه های EDD و Restrict content pro دارد . "
+
+#: index.php:20
+#@ edd_rcp
+msgid " Restrict Content Pro - EDD Add On requires Easy Digital Downloads. Please install or activate it to continue."
+msgstr "افزونه یکپارچه سازی EDD و RCP نیاز به فعال بودن افزونه ی EDD دارد . "
+
+#: index.php:23
+#@ edd_rcp
+msgid " Restrict Content Pro - EDD Add On requires Restrict Content Pro. Please install or activate it to continue."
+msgstr "افزونه یکپارچه سازی EDD و RCP نیاز به فعال بودن افزونه ی Restrict content pro دارد . "
+
+#: rcp_hooks.php:74
+#: rcp_hooks.php:99
+#, php-format
+#@ edd_rcp
+msgid "Enter the EDD default discount value for this subscription level. Values should be entered in EDD currency (%s). Note : the final price of each download can be defined for each subscription level from your download edit screens ."
+msgstr "تخفیف پیشفرض برای محصولات EDD را وارد نمایید . مقادیر تخفیف می بایست بر اساس واحد پولی EDD  (%s) باشد . توجه داشته باشید که قیمت نهایی هر دانلود برای هر سطح اشتراک را نیز میتوانید از صفحه همان محصول تنظیم نمایید ."
+
+#: rcp_hooks.php:136
+#@ edd_rcp
+msgid "EDD Discount value must be numeric and positive ."
+msgstr "مقدار تخفیف EDD می بایست به صورت عددی مثبت وارد شود ."
+
+#: rcp_hooks.php:140
+#@ edd_rcp
+msgid "EDD Discount percent must be between 0 and 100 ."
+msgstr "مقدار تخفیف EDD برای حالت درصدی می بایست عددی بین 0 تا 100 باشد ."
+
